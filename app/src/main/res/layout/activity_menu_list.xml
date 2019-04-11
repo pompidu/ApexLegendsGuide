@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_list">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints"
+        android:background="@color/colorBlack">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:background="@color/colorBlack"
+            android:orientation="vertical">
+
+            <!-- Consumables Menu -->
+            <TextView
+                android:id="@+id/consumable_menu"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_list_border"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/consumables"
+                android:textColor="@color/colorWhite" />
+
+            <!-- Syringe Layout-->
+            <LinearLayout
+                android:id="@+id/syringe_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/syringe" />
+
+                <TextView
+                    android:id="@+id/syringe_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:maxLines="4"
+                    android:paddingTop="15dp"
+                    android:text="@string/syringe"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/syringe_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/syringe_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Syringe -->
+
+            <!-- Medkit Layout-->
+            <LinearLayout
+                android:id="@+id/medkit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/med_kit" />
+
+                <TextView
+                    android:id="@+id/medkit_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/medkit"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/medkit_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/medkit_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Medkit -->
+
+            <!-- Sheildcell Layout-->
+            <LinearLayout
+                android:id="@+id/shieldcell_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/shield_cell" />
+
+                <TextView
+                    android:id="@+id/shieldcell_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/shieldcell"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/shieldcell_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/shield_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Sheildcell -->
+
+            <!-- Sheildbattery Layout-->
+            <LinearLayout
+                android:id="@+id/shieldbattery_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/shield_battery" />
+
+                <TextView
+                    android:id="@+id/shieldbattery_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/shieldbattery"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/shieldbattery_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/shieldbattery_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Sheildbattery -->
+
+            <!-- UltAcc Layout-->
+            <LinearLayout
+                android:id="@+id/Ult_acc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="5dp"
+                    android:src="@drawable/ultimate_accelerant" />
+
+                <TextView
+                    android:id="@+id/Ult_acc_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:paddingTop="15dp"
+                    android:text="@string/ultimateaccelerant"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/Ult_acc_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:text="@string/ultimateaccelerant_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Ult Acc -->
+            <!-- End Consumable menu -->
+
+            <!-- Equipment Menu -->
+            <TextView
+                android:id="@+id/equipment_menu"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/menu_list_border"
+                android:paddingStart="15dp"
+                android:paddingTop="15dp"
+                android:paddingEnd="0dp"
+                android:text="@string/equipment"
+                android:textColor="@color/colorWhite" />
+
+            <!-- Helmet Layout-->
+            <LinearLayout
+                android:id="@+id/helmet_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/menu_list_border"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/helmet" />
+                <TextView
+                    android:id="@+id/helmet_item"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:maxLines="4"
+                    android:paddingTop="15dp"
+                    android:text="@string/helmet"
+                    android:textColor="@color/colorWhite" />
+                <TextView
+                    android:id="@+id/helmet_info1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:maxLines="4"
+                    android:text="@string/helmet_info1"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Helmet Layout-->
+
+            <!-- Helmet2 Layout-->
+            <LinearLayout
+                android:id="@+id/helmet2_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/helmet_item2"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:maxLines="4"
+                    android:paddingTop="15dp"
+                    android:layout_marginStart="100dp"
+                    android:text="@string/helmet2"
+                    android:textColor="@color/colorLightBlue" />
+                <TextView
+                    android:id="@+id/helmet_info2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:maxLines="4"
+                    android:text="@string/helmet_info2"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Helmet2 Layout-->
+            <!-- Helmet3 Layout-->
+            <LinearLayout
+                android:id="@+id/helmet3_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/helmet_item3"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:maxLines="4"
+                    android:paddingTop="15dp"
+                    android:layout_marginStart="100dp"
+                    android:text="@string/helmet3"
+                    android:textColor="@color/colorPink" />
+                <TextView
+                    android:id="@+id/helmet_info3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="75dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:maxLines="4"
+                    android:text="@string/helmet_info3"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Helmet3 Layout-->
+            <!-- Helmet4 Layout-->
+            <LinearLayout
+                android:id="@+id/helmet4_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+
+                <TextView
+                    android:id="@+id/helmet_item4"
+                    android:layout_width="85dp"
+                    android:layout_height="75dp"
+                    android:maxLines="4"
+                    android:paddingTop="15dp"
+                    android:layout_marginStart="100dp"
+                    android:text="@string/helmet4"
+                    android:textColor="@color/colorGold" />
+                <TextView
+                    android:id="@+id/helmet_info4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="15dp"
+                    android:paddingEnd="0dp"
+                    android:maxLines="4"
+                    android:text="@string/helmet_info4"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+            <!-- End Helmet4 Layout-->
+            <!-- End Equipment menu -->
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

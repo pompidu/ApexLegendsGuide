@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Apex Legends Guide</string>
+
+    <!-- Strings -->
+    <string name="consumables">Consumables</string>
+    <string name="equipment">Equipment</string>
+    <string name="syringe">Syringe</string>
+    <string name="syringe_info1">Heals 25\nCast Time: 5 Secs\nStacks up to 6</string>
+    <string name="medkit">MedKit</string>
+    <string name="medkit_info1">Heals 100\nCast Time: 8 Secs\nStacks up to 3</string>
+    <string name="shieldcell">ShieldCell</string>
+    <string name="shield_info1">Shields 25\nCast Time: 3 Secs\nStacks up to 6</string>
+    <string name="shieldbattery">ShieldBattery</string>
+    <string name="shieldbattery_info1">Shields 100\nCast Time: 5 Secs\nStacks up to 3</string>
+    <string name="ultimateaccelerant">Ultimate\nAccelerant</string>
+    <string name="ultimateaccelerant_info1">Ultimate 20\nCast Time: 7 Secs\nStacks up to 1</string>
+    <string name="helmet">Helmet\n(Basic)</string>
+    <string name="helmet_info1">10% Total Headshot Damage reduction</string>
+    <string name="helmet2">Helmet\n(Rare)</string>
+    <string name="helmet_info2">20% Total Headshot Damage reduction</string>
+    <string name="helmet3">Helmet\n(Epic)</string>
+    <string name="helmet_info3">25% Total Headshot Damage reduction</string>
+    <string name="helmet4">Helmet\n(Legendary)</string>
+    <string name="helmet_info4">25% Total Headshot Damage reduction\nReduces Tactical + Ultimate ability cooldowns</string>
+</resources>
