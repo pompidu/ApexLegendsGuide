@@ -41,7 +41,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -76,7 +77,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -110,7 +112,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -145,7 +148,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -180,7 +184,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -229,7 +234,8 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/menu_list_border"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -262,7 +268,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/helmet_item2"
@@ -291,7 +298,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/helmet_item3"
@@ -320,7 +328,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_margin="5dp">
+                android:layout_margin="5dp"
+                android:visibility="gone">
 
                 <TextView
                     android:id="@+id/helmet_item4"
